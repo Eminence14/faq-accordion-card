@@ -78,3 +78,10 @@ p.answer {
 .arrow.active {
     transform: rotateZ(180deg);
 }
+
+@media screen and (min-width: 750px) {
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
